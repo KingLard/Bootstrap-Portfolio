@@ -1,14 +1,18 @@
 body {
-    font-size: 22px;
-    background-image: url("../Images/white-waves/white-waves.png")
+    font-size: 20px;
+    line-height: 2;
+    background-image: url("../Images/white-waves/white-waves.png");
 }
 
 .mainContent {
     margin: auto;
     width: 960px;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid rgb(230, 230, 230);
+    color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .navContainer {
@@ -17,8 +21,74 @@ body {
 
 .navbar {
     margin-bottom: 20px;
+    background-color: #ffffff;
 }
+
+
+  
+.nav-link {
+    padding: 10px;
+}
+
+
+
+#brand {
+    font-size: 28px;
+    color: #4aaaa6;
+    
+}
+
+
+
 
 #profilePhoto {
     padding: 10px;
+    padding-left: 0px;
+}
+
+#mainHeader {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    color: #4aaaa6;
+}
+
+
+#navBottom {
+    margin-bottom: 0;
+    height: 30px;
+}
+
+#navBottomGreen {
+    height: 10px;
+    background-color: #4aaaa6;
+}
+
+
+/* ----------------------------- Start media Screen styling -------------------------------------*/
+
+@media screen and (max-width: 990px) {
+    .navContainer {
+        width: 80%;
+    }
+    
+    
+    .mainContent {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .navContainer {
+        width: 80%;
+    }
+    
+    
+    .mainContent {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    
 }
