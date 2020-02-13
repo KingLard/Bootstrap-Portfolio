@@ -38,6 +38,9 @@ body {
     
 }
 
+form {
+    margin-top: 20px;
+}
 
 
 
@@ -65,7 +68,33 @@ body {
 }
 
 
+textarea {
+    width: 100%;
+    height: 206px;
+}
+
+.btn-primary {
+    background-color: #4aaaa6;
+}
+
+.portImg {
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.portLabel {
+    background-color: #4aaaa6;
+    width: 200px;
+    height: 100px;
+}
+
 /* ----------------------------- Start media Screen styling -------------------------------------*/
+
+
+
+
+
 
 @media screen and (max-width: 990px) {
     .navContainer {
