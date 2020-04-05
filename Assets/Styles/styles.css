@@ -124,6 +124,14 @@ textarea {
     margin-top: 40px;
 }
 
+#email {
+    margin-bottom: 10px;
+}
+
+#number {
+    margin-bottom: 10px;
+}
+
 #resume {
     margin-bottom: 40px;
 }
