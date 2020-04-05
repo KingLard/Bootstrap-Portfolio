@@ -111,6 +111,25 @@ textarea {
     height: 427px;
 }
 
+
+
+
+.link-style {
+    color: rgb(105, 105, 105);
+   
+}
+
+#LinkedIn, #github, #resume, #number, #email {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#resume {
+    margin-bottom: 40px;
+}
+
+
+
 /* ----------------------------- Start media Screen styling -------------------------------------*/
 
 
